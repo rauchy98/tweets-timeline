@@ -1,0 +1,17 @@
+:local(.jumbotronContainer) {
+    margin: 1em;
+    text-align: center;
+    transition: all 0.3s ease-out; 
+}
+
+:local(.jumbotronContainer):hover {
+    background-color: #d4d3d3
+}
+
+.jumbotron a {
+    color: #333333;
+}
+
+.jumbotron a:link {
+    text-decoration: none;
+}

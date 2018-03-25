@@ -1,0 +1,11 @@
+:local(.tweetsContainer) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+div small {
+    color: #7a7a7a;
+}

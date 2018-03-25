@@ -1,0 +1,34 @@
+:local(.cardContainer) {
+    padding: 0.25em;
+    margin: 0.5em;
+}
+
+div .card {
+    border: 0;
+    color: #333333;
+    transition: all 0.3s ease-out; 
+}
+
+:local(.card) {
+    transition: all 0.3s ease-out; 
+    overflow:hidden;
+}
+
+:local(.card):hover {
+    background-color: #d2d5d8;
+}
+
+.card a {
+    color: #333333;
+}
+.card img {
+    transition: all 0.3s ease-out; 
+}
+
+.card :hover img {
+    filter: blur(5px);
+}
+
+a:link {
+    text-decoration: none !important;
+}
